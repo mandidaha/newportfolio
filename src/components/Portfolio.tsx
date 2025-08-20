@@ -94,7 +94,6 @@ const Portfolio = () => {
       category: "design",
       type: "Design Project"
     },
-    ,
     {
       id: 8,
       title: "Music App UI design",
@@ -121,6 +120,18 @@ const Portfolio = () => {
     },
     {
       id: 10,
+      title: "Modern Login & Signup Page UI Design",
+      description: "A modern login and signup UI, designed from wireframes to polished Figma screens with a focus on simplicity, usability, and clean visuals.",
+      tools: ["Figma", "Design"],
+      image: "frame.png",
+      link: "https://www.behance.net/gallery/232936547/Modern-Login-Signup-Page-UI-Design",
+      status: "Completed",
+      featured: false,
+      category: "design",
+      type: "Design Project"
+    },
+    {
+      id: 11,
       title: "Portfolio Website",
       description: "Built my personal portfolio website using React and Tailwind CSS, featuring a responsive design, modern UI, and smooth navigation to showcase my projects and skills.",
       tools: ["React", "Tailwind CSS"],
