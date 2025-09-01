@@ -30,7 +30,14 @@ const Education = () => {
       institution: "St. Thomas' Girls' High School Matara",
       duration: "2013 - 2022",
       current: false
-    }
+    },
+    {
+    degree: "UI/UX Designer Intern",
+    specialization: "Internship at Cenzios Pvt Ltd",
+    period: "2025 - Present",
+    institution: "Cenzios Pvt Ltd",
+    current: true
+     }
   ];
 
   const certifications = [
