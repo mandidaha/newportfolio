@@ -32,12 +32,12 @@ const Education = () => {
       current: false
     },
     {
-    degree: "UI/UX Designer Intern",
-    specialization: "Internship at Cenzios Pvt Ltd",
-    period: "2025 - Present",
-    institution: "Cenzios Pvt Ltd",
-    current: true
-     }
+      degree: "UI/UX Designer Intern",
+      specialization: "Internship at Cenzios Pvt Ltd",
+      period: "Aug 2025 - Feb 2026",
+      institution: "Cenzios Pvt Ltd",
+      current: false
+    }
   ];
 
   const certifications = [
