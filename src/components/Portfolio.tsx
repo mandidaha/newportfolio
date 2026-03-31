@@ -11,48 +11,48 @@ const Portfolio = () => {
 
   const projects = [
     {
-      id: 1,
-      title: "Personal Finance Tracking Mobile App - SaveMate",
-      description: "Developed a personal finance app in Android Studio using Kotlin, enabling users to add and categorize transactions, set monthly budgets with alerts, and view financial summaries. The app helps manage income, expenses, and savings efficiently through organized tracking and timely notifications.",
-      tools: ["Android Studio", "Kotlin", "XML", "Mobile App"],
-      image: "savemateimg.png",
-      link: "https://github.com/mandidaha/savemate",
-      status: "Completed",
-      featured: false,
-      category: "development",
-      type: "Development Project"
-    },
+  id: 1,
+  title: "Travelora - Tourism website",
+  description: "Travelora is a tourism website designed for tourists. Through this website, users can book tour plans, explore popular attraction places, and rent vehicles for their trips. The website mainly includes sections such as the Hero section, Attractions, Tour Plans, Rent Vehicle, Gallery, and Contact Us, providing tourists with an easy and convenient way to plan their travel.",
+  tools: ["Figma", "Design"],
+  image: "Travelora.png",
+  link: "https://www.behance.net/gallery/246503641/Travelora-Tourism-website",
+  status: "Completed",
+  featured: false,
+  category: "design",
+  type: "Design Project"
+},
     {
       id: 2,
-      title: "Shoe Ordering Mobile App - NovaKick",
-      description: "Developed a dynamic shopping app in Android Studio with Kotlin, offering a seamless experience for browsing sports shoes, receiving release alerts, and tracking usage. Integrated secure payments (card, bank transfer, COD) to provide an intuitive, engaging platform for young athletes and teens.",
-      tools: ["Android Studio", "Kotlin", "XML", "Figma", "Mobile App"],
-      image: "novaimg.png",
-      link: "https://github.com/mandidaha/novakick",
+      title: "NexaTech - Tech Devices Website",
+      description: "UI design focuses on a clean, modern, and user-friendly interface that simplifiesbrowsing and shopping for tech devices. The design features a sleek layout with intuitive navigation, high-quality product images, and clear calls to action. The color scheme is a blend of cool blues and vibrant accents to create an engaging and trustworthy shopping experience for tech enthusiasts.",
+      tools: ["Figma", "Design"],
+      image: "NexaTech.png",
+      link: "https://www.behance.net/gallery/246494537/NexaTech-tech-devices-shopping-website",
       status: "Completed",
       featured: false,
-      category: "development",
-      type: "Development Project"
+      category: "design",
+      type: "Design Project"
     },
     {
       id: 3,
-      title: "Bus Transportation Management System",
-      description: "Developed a full-featured Bus Transportation Management System using the MERN stack, with modules for booking, employee tracking, vehicle assignment, feedback, and maintenance. Built RESTful APIs for smooth frontend-backend interaction and designed a clean, user-friendly UI. The system boosts operational efficiency and user satisfaction through real-time data and centralized dashboards.",
-      tools: ["React", "Node.js", "Tailwind CSS", "MongoDB", "Express"],
-      image: "malshanimg.png",
-      link: "https://github.com/mandidaha/bustransportation",
+      title: "GLOW BEAUTY - Beauty Products Website",
+      description: "UI design offers a clean, vibrant, and visually appealing interface that makesshopping for skincare products effortless and enjoyable. The design features a modern layout with intuitive navigation, high-quality product images, and clear calls to action. The color scheme combines soft pastels with bold accents to create an inviting and trustworthy shopping experience for beauty enthusiasts.",
+      tools: ["Figma", "Design"],
+      image: "GLOW BEAUTY.png",
+      link: "https://www.behance.net/gallery/246493779/GLOW-BEAUTY-skincare-products-website",
       status: "Completed",
       featured: false,
-      category: "development",
-      type: "Development Project"
+      category: "design",
+      type: "Design Project"
     },
     {
       id: 4,
-      title: "Shoe Ordering Mobile App Design",
-      description: "Designed a modern, user-focused mobile shopping app in Figma for trendy sports shoes. Created intuitive flows for browsing, release alerts, usage tracking, and secure purchases. The design ensures a seamless, engaging experience for young athletes, kids, and teens, boosting engagement and transaction ease.",
+      title: "Aesthetic coffee shop website ",
+      description: "Focused on creating a smooth user experience with elegant typography, soft shadows, balanced layout, and modern interactions. The goal was to make the digital experience feel as warm and inviting as a real coffee shop.",
       tools: ["Figma", "Design"],
-      image: "kickimg.png",
-      link: "https://www.figma.com/design/CJPE4tzkp4Rqfv27N2SbLJ/NovaKick-App-design?node-id=0-1&t=dk6fxD1rqpEg7rLE-1",
+      image: "nordicbrew.png",
+      link: "https://www.behance.net/gallery/246492359/Aesthetic-coffee-shop-website",
       status: "Completed",
       featured: false,
       category: "design",
@@ -60,46 +60,22 @@ const Portfolio = () => {
     },
      {
       id: 5,
-      title: "Food Ordering Mobile App UI (Self project)",
-      description: "Designed a user-focused food ordering app in Figma, driven by user research and personas. Created wireframes and high-fidelity screens with clear menus, customizable orders, and smooth checkout. Emphasized responsive design and intuitive navigation to enhance engagement and simplify the ordering experience.",
-      tools: ["Figma", "Design", "Prototyping"],
-      image: "tastyimg.png",
-      link: "https://www.behance.net/mandidd",
-      status: "Ongiong",
+      title: "Smart Dashboard UI for Payroll System",
+      description: "Designed a user-friendly payroll dashboard with key features like employee insights (total, joiners, birthdays), payroll tracking (status, monthly updates, approvals), and smart reminders for EPF/ETF deadlines, improving efficiency and organization.",
+      tools: ["Figma", "Design"],
+      image: "payrollimg.png",
+      link: "https://www.behance.net/gallery/246491195/Smart-Dashboard-UI-for-Payroll-System",
+      status: "Completed",
       featured: false,
       category: "design",
       type: "Design Project"
     },
     {
       id: 6,
-      title: "Tasks Management ",
-      description: "A simple task app to organize and track daily, upcoming, and completed tasks with priorities and categories",
-      tools: ["Figma", "Design", "Prototyping"],
-      image: "taskspic.png",
-      link: "https://www.behance.net/gallery/232827455/HabitMate-Task-Management-App-UI",
-      status: "Completed",
-      featured: false,
-      category: "design",
-      type: "Design Project"
-    },
-    {
-      id: 7,
-      title: "Coffee shop Website UI design",
-      description: "Designed a modern and user-friendly coffee shop website using Figma, focusing on clean layouts, warm color palettes.",
+      title: "Soundora - Music App UI design",
+      description: "Designed *Soundora*, a sleek and intuitive music streaming app in Figma, featuring a clean interface, smooth navigation, and a modern, user-focused listening experience that seamlessly blends style and functionality.",
       tools: ["Figma", "Design"],
-      image: "coffeshop.png",
-      link: "https://www.behance.net/gallery/232572189/Coffee-shop-we-design-Latte-Lane",
-      status: "Completed",
-      featured: false,
-      category: "design",
-      type: "Design Project"
-    },
-    {
-      id: 8,
-      title: "Music App UI design",
-      description: "Created a sleek and engaging music app UI in Figma, featuring intuitive navigation, personalized playlists, and a modern visual style for an enjoyable listening experience",
-      tools: ["Figma", "Design"],
-      image: "musicapp.png",
+      image: "soundora.png",
       link: "https://www.behance.net/gallery/232596081/UI-Concept-Music-App",
       status: "Completed",
       featured: false,
@@ -107,36 +83,12 @@ const Portfolio = () => {
       type: "Design Project"
     },
     {
-      id: 9,
-      title: "UI/UX Design for Login & Registration Pages",
-      description: "This Figma design features a clean, intuitive onboarding and authentication interface, with a welcoming splash screen and clear options to log in or sign up.",
-      tools: ["Figma", "Design"],
-      image: "login.png",
-      link: "https://www.behance.net/gallery/232840429/UIUX-Design-for-Login-Registration-Pages",
-      status: "Completed",
-      featured: false,
-      category: "design",
-      type: "Design Project"
-    },
-    {
-      id: 10,
-      title: "Modern Login & Signup Page UI Design",
-      description: "A modern login and signup UI, designed from wireframes to polished Figma screens with a focus on simplicity, usability, and clean visuals.",
-      tools: ["Figma", "Design"],
-      image: "frame.png",
-      link: "https://www.behance.net/gallery/232936547/Modern-Login-Signup-Page-UI-Design",
-      status: "Completed",
-      featured: false,
-      category: "design",
-      type: "Design Project"
-    },
-    {
-      id: 11,
+      id: 7,
       title: "Portfolio Website",
       description: "Built my personal portfolio website using React and Tailwind CSS, featuring a responsive design, modern UI, and smooth navigation to showcase my projects and skills.",
       tools: ["React", "Tailwind CSS"],
-      image: "forsite2.png",
-      link: "https://github.com/mandidaha",
+      image: "myportfolio.png",
+      link: "https://www.mandiradahanayake.me/",
       status: "Completed",
       featured: false,
       category: "development",
@@ -206,7 +158,7 @@ const Portfolio = () => {
                 <img 
                   src={project.image} 
                   alt={project.title}
-                  className={`w-full object-cover transition-transform duration-500 group-hover:scale-110 ${project.featured ? 'h-64' : 'h-48'}`}
+                  className={`w-full object-cover transition-transform duration-500 group-hover:scale-110 ${project.featured ? 'h-64' : 'h-100'}`}
                 />
                 
                 {/* Status Badge */}
@@ -351,7 +303,7 @@ const Portfolio = () => {
               Check out my complete portfolio on GitHub and other platforms to see all my work and contributions.
             </p>
             <a
-              href="https://github.com/mandidaha"
+              href="https://www.behance.net/mandidd"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -359,7 +311,20 @@ const Portfolio = () => {
                 variant="outline"
                 className="border-purple-300 dark:border-purple-600 text-purple-600 dark:text-purple-400 hover:bg-purple-600 hover:text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
               >
-                View All My Projects
+                View All My Projects In Behance
+              </Button>
+            </a>
+            <a
+              href="https://github.com/mandidaha"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-4"
+            >
+              <Button 
+                variant="outline"
+                className="border-purple-300 dark:border-purple-600 text-purple-600 dark:text-purple-400 hover:bg-purple-600 hover:text-white px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
+              >
+                View All My Projects In GitHub
               </Button>
             </a>
           </div>
