@@ -175,7 +175,7 @@ const Hero = () => {
               View My Work
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </Button>
-            <a href="/Mandira' s Resume.pdf" download className="min-w-[200px]">
+            <a href="/New Mandira Dahanayake's CV.pdf" download className="min-w-[200px]">
               <Button variant="outline" className="border-2 border-purple-300 dark:border-purple-600 text-purple-600 dark:text-purple-400 hover:bg-purple-600 hover:text-white hover:border-purple-600 px-8 py-4 text-lg rounded-full transition-all duration-300 transform hover:scale-105 hover:shadow-lg backdrop-blur-sm bg-white/50 dark:bg-gray-800/50 w-full">
               <Download className="mr-2 w-5 h-5" />
               Download Resume
