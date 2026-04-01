@@ -96,7 +96,7 @@ const Hero = () => {
           <div className="space-y-6 mb-12">
             <div className="inline-flex items-center gap-2 bg-purple-100/50 dark:bg-purple-900/50 backdrop-blur-sm px-4 py-2 rounded-full text-purple-700 dark:text-purple-300 font-medium text-sm">
               <Sparkles className="w-4 h-4" />
-              Available for internships
+              Available For Work
             </div>
             
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
