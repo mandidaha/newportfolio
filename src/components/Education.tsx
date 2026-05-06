@@ -216,59 +216,28 @@ const Education = () => {
                 </p>
               </div>
 
-              {/* Two column: Responsibilities + QA Perspective */}
-              <div className="grid md:grid-cols-2 gap-8 mb-8">
-
-                {/* Roles & Responsibilities */}
-                <div>
-                  <div className="flex items-center gap-2 mb-4">
-                    <div className="w-8 h-8 bg-purple-100 dark:bg-purple-900/40 rounded-xl flex items-center justify-center">
-                      <CheckCircle className="text-purple-600 dark:text-purple-400" size={18} />
-                    </div>
-                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-                      Roles & Responsibilities
-                    </h4>
+              {/* Roles & Responsibilities */}
+              <div className="mb-8">
+                <div className="flex items-center gap-2 mb-4">
+                  <div className="w-8 h-8 bg-purple-100 dark:bg-purple-900/40 rounded-xl flex items-center justify-center">
+                    <CheckCircle className="text-purple-600 dark:text-purple-400" size={18} />
                   </div>
-                  <ul className="space-y-3">
-                    {internshipResponsibilities.map((item, index) => (
-                      <li key={index} className="flex items-start gap-3">
-                        <span className="w-5 h-5 bg-purple-100 dark:bg-purple-900/40 text-purple-600 dark:text-purple-400 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
-                          {index + 1}
-                        </span>
-                        <span className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                          {item}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
+                  <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
+                    Roles & Responsibilities
+                  </h4>
                 </div>
-
-                {/* QA & Testing Perspective */}
-                <div>
-                  <div className="flex items-center gap-2 mb-4">
-                    <div className="w-8 h-8 bg-pink-100 dark:bg-pink-900/40 rounded-xl flex items-center justify-center">
-                      <TestTube className="text-pink-600 dark:text-pink-400" size={18} />
-                    </div>
-                    <h4 className="text-lg font-semibold text-gray-900 dark:text-white">
-                      QA & Testing Perspective
-                    </h4>
-                  </div>
-                  <p className="text-sm text-gray-500 dark:text-gray-400 italic mb-3">
-                    Alongside design tasks, I applied a testing mindset to ensure product quality:
-                  </p>
-                  <ul className="space-y-3">
-                    {qaContributions.map((item, index) => (
-                      <li key={index} className="flex items-start gap-3">
-                        <span className="w-5 h-5 bg-pink-100 dark:bg-pink-900/40 text-pink-600 dark:text-pink-400 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
-                          {index + 1}
-                        </span>
-                        <span className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                          {item}
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                <ul className="space-y-3">
+                  {internshipResponsibilities.map((item, index) => (
+                    <li key={index} className="flex items-start gap-3">
+                      <span className="w-5 h-5 bg-purple-100 dark:bg-purple-900/40 text-purple-600 dark:text-purple-400 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">
+                        {index + 1}
+                      </span>
+                      <span className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                        {item}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
               {/* Core Competencies */}
