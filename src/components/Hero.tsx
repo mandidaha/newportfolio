@@ -186,7 +186,7 @@ const Hero = () => {
           {/* Stats or achievements */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">3rd Year</div>
+              <div className="text-3xl font-bold text-purple-600 dark:text-purple-400 mb-2">4th Year</div>
               <div className="text-gray-600 dark:text-gray-300 text-sm">Student</div>
             </div>
             <div className="text-center">
